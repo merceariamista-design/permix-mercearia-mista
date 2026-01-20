@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PERMIX Mercearia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #0f7a3d, #f28c00);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #0f7a3d;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .section {
+      background: #fff;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .section h2 {
+      color: #0f7a3d;
+      margin-top: 0;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    .card h3 {
+      color: #f28c00;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #0f7a3d;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #f28c00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>PERMIX</h1>
+    <p>Mercearia — Preço justo, perto de você</p>
+  </header>  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>  <div class="container"><section id="sobre" class="section">
+  <h2>Quem somos</h2>
+  <p>
+    A <strong>PERMIX Mercearia</strong> nasceu para atender o bairro com qualidade, variedade e preço justo.
+    Trabalhamos com produtos selecionados e atendimento próximo, valorizando cada cliente.
+  </p>
+</section>
+
+<section id="produtos" class="section">
+  <h2>Produtos</h2>
+  <p>Confira alguns dos produtos que você encontra na <strong>PERMIX Mercearia</strong>. Para preços e disponibilidade, fale conosco no WhatsApp.</p>
+  <div class="cards">
+    <div class="card">
+      <h3>🛒 Alimentos</h3>
+      <p>Arroz • Feijão • Óleo • Açúcar • Café • Macarrão</p>
+      <a class="btn" href="https://wa.me/5561998786817?text=Olá,%20gostaria%20de%20informações%20sobre%20alimentos" target="_blank">Pedir no WhatsApp</a>
+    </div>
+    <div class="card">
+      <h3>🥤 Bebidas</h3>
+      <p>Refrigerantes • Sucos • Água • Energéticos</p>
+      <a class="btn" href="https://wa.me/5561998786817?text=Olá,%20gostaria%20de%20informações%20sobre%20bebidas" target="_blank">Pedir no WhatsApp</a>
+    </div>
+    <div class="card">
+      <h3>🧼 Limpeza</h3>
+      <p>Sabão em pó • Detergente • Água sanitária • Desinfetante</p>
+      <a class="btn" href="https://wa.me/5561998786817?text=Olá,%20gostaria%20de%20informações%20sobre%20produtos%20de%20limpeza" target="_blank">Pedir no WhatsApp</a>
+    </div>
+    <div class="card">
+      <h3>🪥 Higiene</h3>
+      <p>Sabonete • Creme dental • Papel higiênico • Shampoo</p>
+      <a class="btn" href="https://wa.me/5561998786817?text=Olá,%20gostaria%20de%20informações%20sobre%20produtos%20de%20higiene" target="_blank">Pedir no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="contato" class="section">
+  <h2>Contato</h2>
+  <p>📍 Atendimento no bairro</p>
+  <p>📞 WhatsApp: (61) 99878-6817</p>
+  <p>💳 Aceitamos Pix, cartão e dinheiro</p>
+  <a class="btn" href="https://wa.me/5561998786817" target="_blank">Falar no WhatsApp</a>
+</section>
+
+  </div>  <footer>
+    <p>© 2026 PERMIX Mercearia — Todos os direitos reservados</p>
+  </footer></body>
+  </html>
